@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "killragdoll",
+  "version": "${version}",
+  "name": "Ragdoll Remains",
+  "description": "Mobs ragdoll into a physics body you can push around when killed. Client-side only.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/killragdoll/icon.png",
+  "environment": "client",
+  "mixins": [
+    { "config": "killragdoll.mixins.json", "environment": "client" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

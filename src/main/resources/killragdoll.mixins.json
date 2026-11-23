@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.killragdoll.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LivingEntityMixin",
+    "ClientLevelMixin",
+    "LivingEntityRendererMixin",
+    "LivingEntityRenderStateMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
